@@ -1,10 +1,13 @@
 # [CSS3Butt.in](http://css3butt.in)
 
-CSS3 Butt.in is built on the [HTML5 Boilerplate](http://html5boilerplate.com)(3.0.2) using [Font Awesome](http://fortawesome.github.com/Font-Awesome/) for scalable icons.
+It's funny because it says butt. 
+
+
+CSS3 Butt.in is built on the [HTML5 Boilerplate](http://html5boilerplate.com)(3.0.2) using [Font Awesome](http://fortawesome.github.com/Font-Awesome/) for scalable icons (yay, no images!).
 
 ## Quick start
 
-Clone the git repo <!--- `git clone git://github.com/h5bp/html5-boilerplate.git` - or [download it](https://github.com/h5bp/html5-boilerplate/zipball/master)-->
+Clone the git repo `git clone git://github.com/WillsonSmith/CSS3Butt.in.git` - or [download it](https://github.com/WillsonSmith/CSS3Butt.in/zipball/master)
 
 Grab [Font Awesome](http://fortawesome.github.com/Font-Awesome/) and install it to your project (see instructions [Here](http://fortawesome.github.com/Font-Awesome/#integration))
 
@@ -21,7 +24,9 @@ Grab [Font Awesome](http://fortawesome.github.com/Font-Awesome/) and install it 
 
 ## Contributing
 
-Please submit any bugs or issues to the issues page. Also include any feature requests in the issues page. But remember, this is meant to be simple, so I may close your issue if I deem the feature to be too complicated. 
+Please submit any bugs or issues to the issues page. 
+
+Also include any feature requests in the issues page, remember this is meant to be simple, so I may close your issue if I deem the feature to be too complicated. 
 
 In the future we may accept user contributions, implimenting them into various branches.
 
@@ -30,7 +35,6 @@ In the future we may accept user contributions, implimenting them into various b
 
 * Source: github.com/
 * Web: http://css3butt.in
-<!--* Docs: http://html5boilerplate.com/docs-->
 * Twitter: http://twitter.com/modfox
 
 
