@@ -1,6 +1,9 @@
 # [CSS3Butt.in](http://css3butt.in)
 
-CSS3 Butt.in is built on the [HTML5 Boilerplate](http://html5boilerplate.com)(3.0.2) using [Font Awesome](http://fortawesome.github.com/Font-Awesome/) for scalable icons.
+It's funny because it says butt. 
+
+
+CSS3 Butt.in is built on the [HTML5 Boilerplate](http://html5boilerplate.com)(3.0.2) using [Font Awesome](http://fortawesome.github.com/Font-Awesome/) for scalable icons (yay, no images!).
 
 ## Quick start
 
