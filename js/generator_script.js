@@ -196,7 +196,7 @@
   			  	  	'color': 'white',
   			  	  	'text-shadow': '0 -1px 0 rgba(0, 0, 0, 0.25)',
   			  	  	'text-decoration': 'none',
-  			  	  	'border': '1px solid rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25)',
+  			  	  	'border': '1px solid rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25)'
   
   	  		},
   	  		value = '';

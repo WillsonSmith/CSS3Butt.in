@@ -161,6 +161,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 				$('#btn i').removeAttr('class');
 				$('#btn i').attr('class', theclass);
 			});
+			$('#btn').on('click', function(e){
 	
 		$("#btn>span").keydown(function(e){
 			if (e.keyCode == 13) {
