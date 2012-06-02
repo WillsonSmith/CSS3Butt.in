@@ -158,10 +158,27 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	
 			$('.the-icons li').on('click', function () {
 				var theclass = $(this).attr('class');
+				
+				$('.the-icons li').removeClass('greenbg');
 				$('#btn i').removeAttr('class');
 				$('#btn i').attr('class', theclass);
+				
+				$(this).addClass('greenbg');
+				
 			});
+			
+			$('#blank-i').on('click', function(e){
+				
+				e.preventDefault();
+				$('#btn i').removeAttr('class');
+				
+			});
+			
 			$('#btn').on('click', function(e){
+				
+				e.preventDefault();
+				
+			})
 	
 		$("#btn>span").keydown(function(e){
 			if (e.keyCode == 13) {
@@ -223,7 +240,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 				});
 				regexbg = value.replace(/^background-[a-z]/mg, 'background');
 				//console.log(xx);
-				$('#css').val(regexbg);
+				$('#css').val('#btn{\n' + regexbg + '}');
 				
 				
 				
@@ -241,5 +258,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 			console.log(linkbutt);
 			$('#linkbtnhtml').val(linkbutt);			
 		})
+		
+
 	
 	});
