@@ -21,7 +21,9 @@ Grab [Font Awesome](http://fortawesome.github.com/Font-Awesome/) and install it 
 
 ## Contributing
 
-Please submit any bugs or issues to the issues page. Also include any feature requests in the issues page. But remember, this is meant to be simple, so I may close your issue if I deem the feature to be too complicated. 
+Please submit any bugs or issues to the issues page. 
+
+Also include any feature requests in the issues page, remember this is meant to be simple, so I may close your issue if I deem the feature to be too complicated. 
 
 In the future we may accept user contributions, implimenting them into various branches.
 
