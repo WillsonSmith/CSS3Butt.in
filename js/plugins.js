@@ -200,16 +200,19 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 			
 			function gettheStyle(style) {
 				var 	cssStr = $('#btn'),
-						fsize = document.defaultView.getComputedStyle(cssStr[0], "")['font-size'],
+						/*fsize = document.defaultView.getComputedStyle(cssStr[0], "")['font-size'],
 						tpadd = document.defaultView.getComputedStyle(cssStr[0], "")['padding'],
 						brad = document.defaultView.getComputedStyle(cssStr[0], "")['border-radius'],
-					//bground = document.defaultView.getComputedStyle(cssStr[0], "")['background'],
-				bground = cssStr.css('background-image'), //this instead of 'getComputedStyle' fixes FireFox issue
-				bgweb = bground.replace(/-webkit|moz|o|ms/, '-webkit'),
-				bgmoz = bground.replace(/-webkit|moz|o|ms/, '-moz'),
-				bgop = bground.replace(/-webkit|moz|o|ms/, '-o'),
-				bgie = bground.replace(/-webkit|moz|o|ms/, '-ms'),
-				bgnoprefix = bground.replace(/-webkit-|moz-|o-|ms-/, ''),
+					bground = document.defaultView.getComputedStyle(cssStr[0], "")['background']*/
+						fsize = cssStr.css('font-size'),
+						tpadd = cssStr.css('padding'),
+						brad = cssStr.css('border-radius'),
+						bground = cssStr.css('background-image'), //this instead of 'getComputedStyle' fixes FireFox issue
+						bgweb = bground.replace(/-webkit|moz|o|ms/, '-webkit'),
+						bgmoz = bground.replace(/-webkit|moz|o|ms/, '-moz'),
+						bgop = bground.replace(/-webkit|moz|o|ms/, '-o'),
+						bgie = bground.replace(/-webkit|moz|o|ms/, '-ms'),
+						bgnoprefix = bground.replace(/-webkit-|moz-|o-|ms-/, ''),
 							compcss = {
 							'font-size': fsize,
 							'padding': tpadd,
