@@ -164,6 +164,7 @@ padding: 0;
 	{
 		text-align: center;
 		margin-top: 20px;
+		padding: 20px;
 	}
 
 	textarea{
@@ -193,6 +194,7 @@ padding: 0;
 	#iconz .textTitle{
 		
 		margin: 20px 10px 0 10px;
+		padding: 20px;
 	}
 	
 	.the-icons{
@@ -244,23 +246,15 @@ padding: 0;
 		margin: 0;
 		
 	}
-	/*
-	#editor .icon-share-alt{
-		
-		display:block;
-		position: relative;
-		
+
+	#genwrap{
+	/*float: left;*/
+		overflow: hidden;
+		width: 95%;
+		margin: 20px auto;
+		box-shadow: 0 0 0 0 #666,0 0 20px rgba(0, 0, 0, .4);
+		padding: 10px;
 	}
-	#editor .icon-share-alt:before{
-		
-		//display: block;
-		font-size: 100px;
-		position: absolute;
-		left: -10px;
-		
-		
-	}
-	*/
 	
 	#cols{
 	float: left;
@@ -374,3 +368,66 @@ padding: 0;
 	display: none;
 	
 }
+
+
+@media only screen and (max-width: 650px) {
+
+/* Style adjustments for viewports that meet the condition */
+/* Mobile - iPhone [check sizing for other mobile browsers - make sure this complies] */
+
+#font-awesome-linkback{
+	
+	width: auto;
+	display: block;
+	
+}
+
+#iconz{
+	
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.span3{
+	
+	width: 25%;
+	
+}
+
+#editor{
+	
+	width: 100%;
+	
+}
+
+#infoinner{
+	
+	width:100%;
+	
+}
+
+#cols{
+
+	width: 100%;
+	box-shadow: none;
+
+}
+
+
+.col{
+	
+	width:100%;
+	float: none;
+	
+}
+
+#html{
+	
+	border: none;
+	
+}
+
+}
+
